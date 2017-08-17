@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960513A61F426E8D00CD1570 /* poi.json in Resources */ = {isa = PBXBuildFile; fileRef = 960513A51F426E8D00CD1570 /* poi.json */; };
+		968C4F951F3A7F4400357B8E /* PoiMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C4F941F3A7F4400357B8E /* PoiMapViewController.swift */; };
+		968C4F991F3A8B3400357B8E /* PoiAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C4F981F3A8B3400357B8E /* PoiAnnotation.swift */; };
 		96A309F81F3A7366007FC34F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A309F71F3A7366007FC34F /* AppDelegate.swift */; };
-		96A309FA1F3A7366007FC34F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A309F91F3A7366007FC34F /* ViewController.swift */; };
 		96A309FD1F3A7366007FC34F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A309FB1F3A7366007FC34F /* Main.storyboard */; };
 		96A309FF1F3A7366007FC34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A309FE1F3A7366007FC34F /* Assets.xcassets */; };
 		96A30A021F3A7366007FC34F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A30A001F3A7366007FC34F /* LaunchScreen.storyboard */; };
+		96A30A0A1F3A7557007FC34F /* InfoPoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A30A091F3A7557007FC34F /* InfoPoi.swift */; };
+		96A30A0C1F3A770A007FC34F /* PoiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A30A0B1F3A770A007FC34F /* PoiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		960513A51F426E8D00CD1570 /* poi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poi.json; sourceTree = "<group>"; };
+		968C4F941F3A7F4400357B8E /* PoiMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiMapViewController.swift; sourceTree = "<group>"; };
+		968C4F981F3A8B3400357B8E /* PoiAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiAnnotation.swift; sourceTree = "<group>"; };
 		96A309F41F3A7366007FC34F /* PontosTuristicos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontosTuristicos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A309F71F3A7366007FC34F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96A309F91F3A7366007FC34F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96A309FC1F3A7366007FC34F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96A309FE1F3A7366007FC34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A30A011F3A7366007FC34F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A30A031F3A7366007FC34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A30A091F3A7557007FC34F /* InfoPoi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPoi.swift; sourceTree = "<group>"; };
+		96A30A0B1F3A770A007FC34F /* PoiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			children = (
 				96A309F61F3A7366007FC34F /* PontosTuristicos */,
 				96A309F51F3A7366007FC34F /* Products */,
+				96E3140C1F43E86D000B5311 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,24 @@
 			isa = PBXGroup;
 			children = (
 				96A309F71F3A7366007FC34F /* AppDelegate.swift */,
-				96A309F91F3A7366007FC34F /* ViewController.swift */,
+				968C4F941F3A7F4400357B8E /* PoiMapViewController.swift */,
+				968C4F981F3A8B3400357B8E /* PoiAnnotation.swift */,
 				96A309FB1F3A7366007FC34F /* Main.storyboard */,
 				96A309FE1F3A7366007FC34F /* Assets.xcassets */,
 				96A30A001F3A7366007FC34F /* LaunchScreen.storyboard */,
+				960513A51F426E8D00CD1570 /* poi.json */,
 				96A30A031F3A7366007FC34F /* Info.plist */,
+				96A30A091F3A7557007FC34F /* InfoPoi.swift */,
+				96A30A0B1F3A770A007FC34F /* PoiTableViewController.swift */,
 			);
 			path = PontosTuristicos;
+			sourceTree = "<group>";
+		};
+		96E3140C1F43E86D000B5311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +117,11 @@
 					96A309F31F3A7366007FC34F = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A30A021F3A7366007FC34F /* LaunchScreen.storyboard in Resources */,
+				960513A61F426E8D00CD1570 /* poi.json in Resources */,
 				96A309FF1F3A7366007FC34F /* Assets.xcassets in Resources */,
 				96A309FD1F3A7366007FC34F /* Main.storyboard in Resources */,
 			);
@@ -136,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A309FA1F3A7366007FC34F /* ViewController.swift in Sources */,
+				96A30A0A1F3A7557007FC34F /* InfoPoi.swift in Sources */,
+				96A30A0C1F3A770A007FC34F /* PoiTableViewController.swift in Sources */,
+				968C4F991F3A8B3400357B8E /* PoiAnnotation.swift in Sources */,
+				968C4F951F3A7F4400357B8E /* PoiMapViewController.swift in Sources */,
 				96A309F81F3A7366007FC34F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PontosTuristicos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = acv.com.PontosTuristicos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PontosTuristicos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = acv.com.PontosTuristicos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +330,7 @@
 				96A30A081F3A7366007FC34F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
